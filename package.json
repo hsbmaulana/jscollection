@@ -1,0 +1,17 @@
+{
+    "name": "hsbmaulana-jscollection",
+    "version": "1.0.0",
+    "description": "Data Structure and Algorithm",
+
+    "engines": { "syntax": "es6", "node": ">=8.2", "npm": ">=5.3" },
+    "dependencies": {},
+
+    "devDependencies": {
+
+        "mocha": "^6.2"
+    },
+
+    "main": "index.js",
+
+    "publishConfig": { "access": "public" }, "engineStrict": true
+}
