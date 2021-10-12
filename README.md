@@ -16,13 +16,15 @@ How to use :
 ```js
 var { List : { ArrayList, LinkedList, } } = require('hsbmaulana-jscollection');
 
-var collection = new ArrayList();
+var list = new ArrayList();
 
-collection.add(1);
-collection.add(2);
-collection.add(3);
+list.add("A");
+list.add("B");
+list.add("C");
+list.add("D");
+list.add("E");
 
-require('assert').equal(collection.count(), 3);
+require('assert').equal(collection.count(), 5);
 ```
 
 [Replit](https://replit.com/@hsbmaulana/jscollection)

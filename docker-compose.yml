@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+
+  core:
+
+    build:
+
+      context: "./"
+      dockerfile: "Dockerfile"
+      args:
+
+        name: ${NAME}
+
+    image: "${NAME}:1.0.0"
+    container_name: ${NAME}
+
+    volumes:
+
+      - "./.env:/var/www/${NAME}/.env"
+      - "./.mocharc.json:/var/www/${NAME}/.mocharc.json"
+      - "./package.json:/var/www/${NAME}/package.json"
+      - "./index.js:/var/www/${NAME}/index.js"
+
+      - "./bin/:/var/www/${NAME}/bin/"
+      - "./src/:/var/www/${NAME}/src/"
+      - "./test/:/var/www/${NAME}/test/"
+
+    # entrypoint: [] #
+    # command: ["tail", "-f", "/dev/null"] #

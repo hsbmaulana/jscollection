@@ -1,0 +1,5 @@
+{
+    "package": "./package.json", "recursive": true, "diff": true, "reporter": "spec",
+
+    "spec": "test/**/*.test.js"
+}
