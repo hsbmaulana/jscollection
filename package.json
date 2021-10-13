@@ -1,6 +1,6 @@
 {
     "name": "hsbmaulana-jscollection",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Data Structure and Algorithm",
 
     "engines": { "syntax": "es6", "node": ">=15.12", "npm": ">=7.6" },
@@ -13,5 +13,5 @@
 
     "main": "index.js",
 
-    "publishConfig": { "access": "public" }, "engineStrict": true
+    "publishConfig": { "cache": "~/.npm", "access": "public" }, "engineStrict": true
 }
