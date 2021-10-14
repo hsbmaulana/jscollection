@@ -2,6 +2,5 @@
 .gitignore
 Dockerfile*
 docker-compose*
-README.md
 
 node_modules/
