@@ -12,4 +12,10 @@ module.exports =
     {
         BinarySearchTree : require('../src/Trees/BinarySearchTree'),
     },
+
+    Graph :
+    {
+        DirectedGraph : require('../src/Graphs/DirectedGraph'),
+        UndirectedGraph : require('../src/Graphs/UndirectedGraph'),
+    },
 };

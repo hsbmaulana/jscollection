@@ -1,6 +1,6 @@
 {
     "name": "hsbmaulana-jscollection",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "description": "Data Structure and Algorithm",
 
     "engines": { "syntax": "es6", "node": ">=15.12", "npm": ">=7.6" },
