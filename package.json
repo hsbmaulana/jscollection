@@ -1,7 +1,12 @@
 {
     "name": "hsbmaulana-jscollection",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "Data Structure and Algorithm",
+
+    "license": "MIT",
+    "author": "Hasby Maulana <hsbmaulana.iso@protonmail.com>",
+    "homepage": "https://github.com/hsbmaulana/jscollection",
+    "bugs": { "url": "https://github.com/hsbmaulana/jscollection/issues" },
 
     "engines": { "syntax": "es6", "node": ">=15.12", "npm": ">=7.6" },
     "dependencies": {},
